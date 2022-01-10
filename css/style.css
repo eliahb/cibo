@@ -88,6 +88,11 @@ html {
  	display: flex;
  	flex-direction: column;
  	font-family: 'Oswald', sans-serif;
+ 	transition: transform 0.3s ease-in-out;
+ }
+
+ .card:hover {
+ 	transform: scale(1.08);
  }
 
  .card:visited {
