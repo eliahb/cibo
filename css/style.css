@@ -20,6 +20,8 @@ html {
 	font-size: 30px;
 	padding: 10px;
 	position: fixed;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 .recipe-header a {
@@ -45,14 +47,16 @@ html {
 	left: 40px;
 	color: navajowhite;
 	font-size:  120px;
+	font-weight: 400;
  }
 
 .title {
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	padding-top: 40px;
-	font-size: 82px;
-	font-weight: 400;
+	font-size: 50px;
+	font-weight: 700;
+
 }
 
  .cover img {
@@ -99,12 +103,16 @@ html {
  	color:  #000000;
  }
 
+ a {
+ 	text-decoration: none;
+ }
+
  .card div {
  	padding: 20px;
  	text-align: center;
  }
 
- .card h2 {
+ .card div h2 {
  	font-size: 26px;
  	color: #000000;
  	text-decoration: none;
@@ -130,12 +138,41 @@ html {
 	width: 100%;
 }
 
-.recipe-content {
-	width: 90%;
-	max-width: 600px;
-	margin: 20px auto;
+.recipe-cover2 { 	
+	width: 100%;
+ 	height: 400px;
+ 	background-image: url('../assets/steak.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: 60%;
+
+}
+.recipe-cover2 img {
+	object-fit: cover;
+	width: 100%;
 }
 
+.recipe-cover3 {
+	width: 100%;
+ 	height: 400px;
+ 	background-image: url('../assets/panecake.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: 60%;
+}
+
+.recipe-cover3 img {
+	object-fit: cover;
+	width: 100%;
+}
+
+.recipe-content {
+	font-family: 'Oswald', sans-serif;
+	padding: 40px;
+	width: 100%;
+	max-width: 500px;
+	margin:  20px auto;
+}
 
 
  @keyframes pulse {
