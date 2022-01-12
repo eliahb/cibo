@@ -36,10 +36,11 @@ footer{
 
 .arrow-back {
 	position: absolute;
-	right: 20px;
+	left: 20px;
 	width: 32px;
 	height: 32px;
 	transition: transform 0.3s ease-in-out;
+	margin-top: 8px;
 }
 
 .arrow-back:hover{/* her håndtere jeg hover state av klassen */
@@ -113,10 +114,8 @@ footer{
 	display: flex;
  }
 
- @media screen and (max-width:  768px) {
+ @media screen and (max-width:  768px) { /* denne styrer visning til #maincontent i screen under 768px */
  	 #maincontent {
-	 	width: 100%;
-		display: flex;
 		flex-direction: column;
 	 }
  }
@@ -205,10 +204,9 @@ footer{
 	font-family: 'Oswald', sans-serif;
 	padding: 40px;
 	width: 100%;
-	max-width: 500px;
-	margin:  0 auto;
 	font-weight: 300;
-
+	max-width: 500px;	
+	margin:  0 auto;
 }
 
 
