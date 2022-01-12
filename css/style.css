@@ -6,9 +6,44 @@
 	box-sizing: border-box;
 }
 
-html {
+html { /*  dette styrer hoved stil for htmldokumentet  */
 	scroll-behavior: smooth;
 	background-color: rgb(240, 240, 240);
+}
+
+footer{
+	width: 100%;
+	background-color: #333;
+	min-height: 40px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px;
+	text-align: center;
+	position:  relative; 
+}
+
+.arrow-up {
+	position: absolute;
+	right: 20px;
+	width: 32px;
+	height: 32px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.arrow-up:hover{/* her håndtere jeg hover state av klassen */
+	transform: scale(1.2);
+}
+
+.arrow-back {
+	position: absolute;
+	right: 20px;
+	width: 32px;
+	height: 32px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.arrow-back:hover{/* her håndtere jeg hover state av klassen */
+	transform: scale(1.2);
 }
 
 
@@ -24,7 +59,7 @@ html {
 
 }
 
-.recipe-header a {
+.recipe-header a { /* denne class selector  påvirker tag "a" inn i .recipe-header class */
 	text-decoration: none;
 	color:  navajowhite;
 }
@@ -171,7 +206,9 @@ html {
 	padding: 40px;
 	width: 100%;
 	max-width: 500px;
-	margin:  20px auto;
+	margin:  0 auto;
+	font-weight: 300;
+
 }
 
 
