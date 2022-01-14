@@ -114,6 +114,19 @@ footer{
 	display: flex;
  }
 
+.rapport {
+	left: 20px;
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-weight: 400;
+	transition: transform 0.3s ease-in-out;
+}
+
+.rapport:hover{
+	transform: scale(1.1);
+}
+
  @media screen and (max-width:  768px) { /* denne styrer visning til #maincontent i screen under 768px */
  	 #maincontent {
 		flex-direction: column;
